@@ -40,12 +40,9 @@
                     <span>Sponsor</span>
                 </a>
                 {% endif %}
-                <li>
-                    <a href="{{ site.github.repository_url }}" style="color: white;">
-                        <i class="fab fa-github" style="color: white;"></i> 
-                        {{ site.github.repository_name }} by {{ site.github.repository_owner }}
-                    </a>
-                </li>
+                
+                {% include github-metadata.html %}
+    
             </div>
 
         </div>

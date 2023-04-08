@@ -24,4 +24,4 @@ Find me on [GitHub](https://github.com/Matans844). Here are a few of my interest
 
 
 # Contact
-Personal email: matans844 AT gmail.com
+Personal email: matans844 [AT] gmail [DOT] com
