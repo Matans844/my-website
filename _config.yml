@@ -14,7 +14,7 @@ description: >
 theme: bulma-clean-theme
 
 baseurl: ""
-url: "https://matans844.github.io"
+url: ""
 
 # Social (First three Required)
 repo: "https://github.com/Matans844/my-website"
