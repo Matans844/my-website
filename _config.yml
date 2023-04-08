@@ -6,21 +6,34 @@ lang: en
 timezone: Israel
 
 # Site details and customization
-title: matansheskin.com
-tagline: Personal Website
+title:
+tagline:
 email: matans844@gmail.com
 description: >
   A personal website to display my projects, my ideas, and my thoughts about code.
 theme: bulma-clean-theme
 
 baseurl: ""
-url: "https://matans844.github.io/my-website"
+url: ""
 
 # Social (First three Required)
 repo: "https://github.com/Matans844/my-website"
 github_user: "Matans844"
 github_repo: "my-website"
 github_branch: "master"
+github:
+  repository_name: my-website 
+  access_token : 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
+  repository_owner: Matans844
+  repository_url: https://github.com/Matans844/my-website
+  scopes:
+    - repo
+
+# Update: Not a problem anymore!!!!!!
+# Still a problem:
+# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+# But the following works:
+# curl -H "Authorization: token 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" https://api.github.com/user --user "Matans844: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"
 
 permalink: pretty
 # favicon: /path/to/favicon.png
@@ -50,6 +63,7 @@ plugins:
   - kramdown-parser-gfm
   - jekyll-redirect-from
   - jekyll-font-awesome-sass
+  - jekyll-github-metadata
 
 exclude: 
   - Gemfile
