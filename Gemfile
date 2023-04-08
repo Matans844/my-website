@@ -11,8 +11,8 @@ group :jekyll_plugins do
     gem "jekyll-paginate"
     gem "jekyll-seo-tag"
     gem "jekyll-redirect-from"
-    gem "jekyll-github-metadata"
-    gem "github-pages"
+    gem "jekyll-github-metadata", "~> 1.0"
+    # gem "github-pages"
     gem 'jekyll-font-awesome-sass'
     gem 'octokit'
 end

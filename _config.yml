@@ -22,12 +22,18 @@ github_user: "Matans844"
 github_repo: "my-website"
 github_branch: "master"
 github:
-  access_token: Matans844/my-website 
-  repository_name : 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
+  repository_name: Matans844/my-website 
+  access_token : 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
+  repository_owner: Matans844
+  repository_url: https://github.com/Matans844/my-website
   scopes:
     - repo
 
-# curl -H "Authorization: token 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" https://api.github.com/user --user "Matans844"
+# Update: Not a problem anymore!!!!!!
+# Still a problem:
+# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+# But the following works:
+# curl -H "Authorization: token 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" https://api.github.com/user --user "Matans844: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"
 
 permalink: pretty
 # favicon: /path/to/favicon.png
