@@ -22,6 +22,7 @@ github_user: "Matans844"
 github_repo: "my-website"
 github_branch: "master"
 github:
+  repository: Matans844/my-website
   repository_name: my-website 
   access_token : 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
   repository_owner: Matans844
