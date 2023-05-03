@@ -31,7 +31,7 @@ import math
 
 ### Details and Implementation
 
-To calculate `gcd` for two numbers, `a,b`, we can use the Euclidean Algorithm. However, there's a built-in implemenation for the calculation of `gcd(a,b)` in Python.
+To calculate `gcd` for two numbers, `a,b`, we can use the Euclidean Algorithm. However, there's a built-in implementation for the calculation of `gcd(a,b)` in Python.
 
 Python docs function signature: `math.gcd(*integers)`
 
@@ -117,7 +117,7 @@ Since `p` is prime, we can easily divide by an integer a non-multiple of `p` as 
 * Hence, `u` is the inverse of `a`. 
 * Hence, to divide by `a`, we can instead multiply by `u (mod(p))`.
 
-Thus, leveraging modular combinatrics, multiplying by `inv(a,p)` is analogous to dividing by `a`.
+Thus, leveraging modular combinatorics, multiplying by `inv(a,p)` is analogous to dividing by `a`.
 
 I think more explanation about this can be found in source 5.
 
@@ -226,7 +226,7 @@ I did two attempts:
 #### Attempt 1
 From source 6, I think there should be a better way of doing this:
 * I should be able to do this without going all the way to `n`.
-* I should be able to do this going upto `min(n,k)`.
+* I should be able to do this going up to `min(n,k)`.
 
 
 ```python
@@ -363,11 +363,11 @@ The following problem in leetcode got me to write this notebook: https://leetcod
 
 In it:
 * We have `n` dice
-* Each die has `k` sides numberd from `1` to `k`.
+* Each die has `k` sides numbered from `1` to `k`.
 * We need to find the number of ways to roll the dice, so the sum of the face-up numbers equals `target`.
 * As input, we receive `(n, k, target)`.
 
-Solutins:
+Solutions:
 1. The official solution uses memoization and DP. 
 2. There is also a mathematical solution.
 

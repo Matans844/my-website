@@ -178,7 +178,7 @@ This creates a very interesting behavior:
 
 This goes on until the generator is exhausted.
 
-If we still need elements for the last tuple, we use a fillvalue.
+If we still need elements for the last tuple, we use a fill value, `fillvalue`.
 
 #### Group by break function: Existing element
 
@@ -223,7 +223,7 @@ This is a great example for:
 * When sorting should not always happen on a sequence before using `groupby()`.
 * Where `SQL's GROUPBY` differs from `Python's groupby()`
 
-`SQL's GROUPBY` does not care about the order of keys. As the Python docs states, "it aggreates common elements regardless of their input order".
+`SQL's GROUPBY` does not care about the order of keys. As the Python docs states, "it aggregates common elements regardless of their input order".
 
 However, notice what happens here - The keys are from `Python's groupby()` are allowed to not be unique! 
 

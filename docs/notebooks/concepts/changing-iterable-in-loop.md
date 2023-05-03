@@ -175,5 +175,5 @@ for index, elem in enumerate(l):
 ### Analysis
 
 Here we see exactly the "ignorance" of the iterator according to the `index` variable: 
-* The iterator does as its supposed to: Element 1 -> Element 2 -> ... -> Itarble End
+* The iterator does as its supposed to: Element 1 -> Element 2 -> ... -> Iterable End
 * Changing `l` does not affect the iterator traversal, but it can affect what the iterator finds in those positions.

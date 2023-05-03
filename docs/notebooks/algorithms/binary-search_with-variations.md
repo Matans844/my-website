@@ -146,7 +146,7 @@ def binary_search_integers_with_function(left, right, target, function = lambda 
 ```python
 test1 = TestCaseForIntegers(left = 1, right = 10**5, target=121)
 
-# We are searching for the integer whose sequare equals target
+# We are searching for the integer whose square equals target
 
 result = binary_search_integers_with_function(test1.left, test1.right, test1.target, lambda x : x**2)
 
@@ -154,7 +154,7 @@ assert result ** 2 == test1.target
 ```
 
 ## Variation 1
-Finding first elemet in sorted array, such that it is the first to satisfy a given predicate.
+Finding first element in sorted array, such that it is the first to satisfy a given predicate.
 
 ### Using an identity function on elements
 
@@ -320,7 +320,7 @@ def binary_search_integers_with_function(left, right, target, function = lambda 
 ```python
 test1 = TestCaseForIntegers(left = 1, right = 10**5, target=678)
 
-# We are searching for the first integer whose sequare is greater-equal than target
+# We are searching for the first integer whose square is greater-equal than target
 
 result = binary_search_integers_with_function(test1.left, test1.right, test1.target, lambda x : x**2)
 
@@ -349,7 +349,7 @@ def binary_search_integers_with_predicate_function(left, right, target, predicat
 ```python
 test1 = TestCaseForIntegers(left = 1, right = 10**5, target=678)
 
-# We are searching for the first integer whose sequare is greater-equal than target
+# We are searching for the first integer whose square is greater-equal than target
 
 result = binary_search_integers_with_predicate_function(test1.left, test1.right, test1.target, operator.ge, lambda x : x**2)
 
