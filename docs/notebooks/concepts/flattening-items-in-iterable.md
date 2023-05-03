@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Flatenning lists
+title: Flattening lists
 categories: [concepts]
 menubar: menu_notebooks
 show_sidebar: false
@@ -153,7 +153,7 @@ Is there a difference between a single character and a string in Python3?
 
 
 ```python
-# No distinction between single character strings and strings in Pyton3
+# No distinction between single character strings and strings in Python3
 # Both are strings, and hence - iterables.
 
 depth_1_iterable_1 = "abc"
@@ -174,7 +174,7 @@ print(target)
 
 
 ```python
-# No distinction between single character strings and strings in Pyton3
+# No distinction between single character strings and strings in Python3
 # Both are strings, and hence - iterable.
 
 depth_1_iterable_1 = [0,1,2]
