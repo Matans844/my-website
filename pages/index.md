@@ -15,7 +15,6 @@ My name is Matan Sheskin. I am a programmer. I finished my computer science B.Sc
 
 # Projects
 Find me on [GitHub](https://github.com/Matans844). Here are a few of my interesting public projects:
-
 * [Image Caption Generator](https://github.com/Matans844/img2capt-Deep-Learning-Image-Caption-Generator): A pre-trained CNN encoder passes image features to a combined RNN LSTM encoder that generates textual captions to input images. Written in Python using Pytorch.
 * [TypeScript](https://github.com/Matans844/e-commerce-backend): A node application uses Express to expose a RESTful API for store management. Data is stored in MongoDB and managed with Redux.
 * [4-in-A-Row game](https://github.com/Matans844/C21-Ex05-Matan-4-or-more-In-A-Row-Game): Modifiable board dimensions. Two game modes: Player vs. Player and Player vs. Computer. Decoupled logic and UI. Written in C\# and .NET.
